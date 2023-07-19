@@ -1,0 +1,213 @@
+@media (max-width: 1152px){
+    .header_container-wraper{
+        justify-content: space-between;
+    }
+    .nav ul{
+        margin: 0 10px;
+        /* margin-left: auto; */
+
+    }
+    .cart{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px){
+    .nav_toggle{
+        display: inline-block;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .nav ul{
+        position: absolute;
+    }
+
+    .cards{
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    .about_container-wraper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+       
+    }
+
+    .about_container-wraper-image{
+        display: none;
+    }
+
+    .testimonial_container-wraper-circle{
+       justify-content: center;
+    }
+    .circle_info{
+        margin: 10px;
+    }
+
+    .othrer_prod_container-wpaper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .eco_block-contet{
+        margin-top: 0;
+    }
+}
+@media (max-width: 931px){
+    .products_cards_content{
+        justify-content: center;
+    }
+    .title-block{
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .eco_container-wraper-img{
+        display: none;
+    }
+    .eco_block-contet{
+        left: 0;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .three_cards-wraper{
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 800px){
+    .title_container-wraper{
+        padding-top: 100px;
+        padding-bottom: 105px;
+    }
+    .testimonial{
+        margin-top: 20px;
+        background: none;
+    }
+    .testimonial_container-wraper-block{
+        padding-top: 50px;
+    }
+    .testimonial_container-wraper-block span:last-child{
+        padding-bottom: 50px;
+    }
+    .testimonial_container-wraper-circle{
+       
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .map{
+        height: 380px;
+    }
+}
+@media (max-width: 640px){
+    .header_container-wraper{
+        flex-wrap: wrap;
+    }
+    .nav_toggle{
+        margin: 0 50px;
+    }
+
+    .title_container-wraper span{
+        font-size: 28px;
+    }
+    .title_container-wraper h1{
+        width: 90%;
+        font-size: 50px;
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 567px){
+    .cart{
+        margin-top: 20px;
+    }
+    .cards{
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .cards-block_content img{
+        width: 310px;
+    }
+    .map{
+        height:240px;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        width: 95%;
+    }
+    .header_container-wraper{
+        flex-direction: row-reverse;
+    }
+    
+    .nav_toggle{
+        margin: 0 25px;
+    }
+    .nav a{
+        margin-left: 25px;
+        /* border: 1px solid black; */
+    }
+    .title_container-wraper{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_container-wraper h1{
+        text-align: center;
+    }
+
+    .cards_container-wraper-block{
+        height: 90%;
+    }
+    .cards_content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .cards_content h4{
+        font-size: 25px;
+    }
+    .cards_container-wraper-block:nth-child(2) .cards_content {
+        width: 70%;
+    }
+
+    .about_container-wraper{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about_container-wraper-content h3{
+        font-size: 25px;
+    }
+    .block_point{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards-block_content{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .cards-block_content img{
+        width: 280px;
+    }
+    .products_cards-block-named-price{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stars{
+        margin-top: 10px;
+    }
+
+    .eco_block-contet h3{
+        width: auto;
+    }
+}
